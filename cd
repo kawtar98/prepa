@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <unistd.h>
+void maff_alpha()
+{
+ Write(1 , "aBcDeFgHiJkLmNoPqRsTuVwXyz", 26);
+} 
+
+int main(void)
+{
+  maff_alpha();
+    return 0;
+}
